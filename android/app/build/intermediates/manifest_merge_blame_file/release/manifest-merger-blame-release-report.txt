@@ -1,0 +1,232 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.face_verification"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\DhinakaranChandrasek\Documents\Face_Verification\android\app\src\main\AndroidManifest.xml:3:5-67
+11-->C:\Users\DhinakaranChandrasek\Documents\Face_Verification\android\app\src\main\AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->C:\Users\DhinakaranChandrasek\Documents\Face_Verification\android\app\src\main\AndroidManifest.xml:4:5-65
+12-->C:\Users\DhinakaranChandrasek\Documents\Face_Verification\android\app\src\main\AndroidManifest.xml:4:22-62
+13    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+13-->C:\Users\DhinakaranChandrasek\Documents\Face_Verification\android\app\src\main\AndroidManifest.xml:5:5-70
+13-->C:\Users\DhinakaranChandrasek\Documents\Face_Verification\android\app\src\main\AndroidManifest.xml:5:22-68
+14
+15    <uses-feature
+15-->[:react-native-camera] C:\Users\DhinakaranChandrasek\Documents\Face_Verification\node_modules\react-native-camera\android\build\intermediates\merged_manifest\mlkitRelease\AndroidManifest.xml:9:5-11:36
+16        android:name="android.hardware.camera"
+16-->[:react-native-camera] C:\Users\DhinakaranChandrasek\Documents\Face_Verification\node_modules\react-native-camera\android\build\intermediates\merged_manifest\mlkitRelease\AndroidManifest.xml:10:9-47
+17        android:required="false" />
+17-->[:react-native-camera] C:\Users\DhinakaranChandrasek\Documents\Face_Verification\node_modules\react-native-camera\android\build\intermediates\merged_manifest\mlkitRelease\AndroidManifest.xml:11:9-33
+18    <uses-feature
+18-->[:react-native-camera] C:\Users\DhinakaranChandrasek\Documents\Face_Verification\node_modules\react-native-camera\android\build\intermediates\merged_manifest\mlkitRelease\AndroidManifest.xml:12:5-14:36
+19        android:name="android.hardware.camera.autofocus"
+19-->[:react-native-camera] C:\Users\DhinakaranChandrasek\Documents\Face_Verification\node_modules\react-native-camera\android\build\intermediates\merged_manifest\mlkitRelease\AndroidManifest.xml:13:9-57
+20        android:required="false" />
+20-->[:react-native-camera] C:\Users\DhinakaranChandrasek\Documents\Face_Verification\node_modules\react-native-camera\android\build\intermediates\merged_manifest\mlkitRelease\AndroidManifest.xml:14:9-33
+21
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->[:react-native-community_netinfo] C:\Users\DhinakaranChandrasek\Documents\Face_Verification\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:7:5-79
+22-->[:react-native-community_netinfo] C:\Users\DhinakaranChandrasek\Documents\Face_Verification\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:7:22-76
+23    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+23-->[:react-native-community_netinfo] C:\Users\DhinakaranChandrasek\Documents\Face_Verification\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:8:5-76
+23-->[:react-native-community_netinfo] C:\Users\DhinakaranChandrasek\Documents\Face_Verification\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:8:22-73
+24    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+24-->[:react-native-fs] C:\Users\DhinakaranChandrasek\Documents\Face_Verification\node_modules\react-native-fs\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:7:5-81
+24-->[:react-native-fs] C:\Users\DhinakaranChandrasek\Documents\Face_Verification\node_modules\react-native-fs\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:7:22-78
+25    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+26    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+26-->[com.google.android.gms:play-services-iid:17.0.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\7d00a3d973e62c64256363b4cb614082\transformed\jetified-play-services-iid-17.0.0\AndroidManifest.xml:23:5-82
+26-->[com.google.android.gms:play-services-iid:17.0.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\7d00a3d973e62c64256363b4cb614082\transformed\jetified-play-services-iid-17.0.0\AndroidManifest.xml:23:22-79
+27
+28    <permission
+28-->[androidx.core:core:1.9.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\13659b94c66de92d98d7f8af61234b95\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+29        android:name="com.face_verification.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+29-->[androidx.core:core:1.9.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\13659b94c66de92d98d7f8af61234b95\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+30        android:protectionLevel="signature" />
+30-->[androidx.core:core:1.9.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\13659b94c66de92d98d7f8af61234b95\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+31
+32    <uses-permission android:name="com.face_verification.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+32-->[androidx.core:core:1.9.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\13659b94c66de92d98d7f8af61234b95\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+32-->[androidx.core:core:1.9.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\13659b94c66de92d98d7f8af61234b95\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+33    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+33-->[com.android.installreferrer:installreferrer:1.1.2] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\7347c325151bfcdf75aa8769efa26987\transformed\jetified-installreferrer-1.1.2\AndroidManifest.xml:9:5-110
+33-->[com.android.installreferrer:installreferrer:1.1.2] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\7347c325151bfcdf75aa8769efa26987\transformed\jetified-installreferrer-1.1.2\AndroidManifest.xml:9:22-107
+34
+35    <application
+35-->C:\Users\DhinakaranChandrasek\Documents\Face_Verification\android\app\src\main\AndroidManifest.xml:7:5-26:19
+36        android:name="com.face_verification.MainApplication"
+36-->C:\Users\DhinakaranChandrasek\Documents\Face_Verification\android\app\src\main\AndroidManifest.xml:8:7-38
+37        android:allowBackup="false"
+37-->C:\Users\DhinakaranChandrasek\Documents\Face_Verification\android\app\src\main\AndroidManifest.xml:12:7-34
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.9.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\13659b94c66de92d98d7f8af61234b95\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+39        android:extractNativeLibs="true"
+40        android:icon="@mipmap/ic_launcher"
+40-->C:\Users\DhinakaranChandrasek\Documents\Face_Verification\android\app\src\main\AndroidManifest.xml:10:7-41
+41        android:label="@string/app_name"
+41-->C:\Users\DhinakaranChandrasek\Documents\Face_Verification\android\app\src\main\AndroidManifest.xml:9:7-39
+42        android:roundIcon="@mipmap/ic_launcher_round"
+42-->C:\Users\DhinakaranChandrasek\Documents\Face_Verification\android\app\src\main\AndroidManifest.xml:11:7-52
+43        android:theme="@style/AppTheme" >
+43-->C:\Users\DhinakaranChandrasek\Documents\Face_Verification\android\app\src\main\AndroidManifest.xml:13:7-38
+44        <activity
+44-->C:\Users\DhinakaranChandrasek\Documents\Face_Verification\android\app\src\main\AndroidManifest.xml:14:7-25:18
+45            android:name="com.face_verification.MainActivity"
+45-->C:\Users\DhinakaranChandrasek\Documents\Face_Verification\android\app\src\main\AndroidManifest.xml:15:9-37
+46            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+46-->C:\Users\DhinakaranChandrasek\Documents\Face_Verification\android\app\src\main\AndroidManifest.xml:17:9-118
+47            android:exported="true"
+47-->C:\Users\DhinakaranChandrasek\Documents\Face_Verification\android\app\src\main\AndroidManifest.xml:20:9-32
+48            android:label="@string/app_name"
+48-->C:\Users\DhinakaranChandrasek\Documents\Face_Verification\android\app\src\main\AndroidManifest.xml:16:9-41
+49            android:launchMode="singleTask"
+49-->C:\Users\DhinakaranChandrasek\Documents\Face_Verification\android\app\src\main\AndroidManifest.xml:18:9-40
+50            android:windowSoftInputMode="adjustResize" >
+50-->C:\Users\DhinakaranChandrasek\Documents\Face_Verification\android\app\src\main\AndroidManifest.xml:19:9-51
+51            <intent-filter>
+51-->C:\Users\DhinakaranChandrasek\Documents\Face_Verification\android\app\src\main\AndroidManifest.xml:21:9-24:25
+52                <action android:name="android.intent.action.MAIN" />
+52-->C:\Users\DhinakaranChandrasek\Documents\Face_Verification\android\app\src\main\AndroidManifest.xml:22:13-65
+52-->C:\Users\DhinakaranChandrasek\Documents\Face_Verification\android\app\src\main\AndroidManifest.xml:22:21-62
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->C:\Users\DhinakaranChandrasek\Documents\Face_Verification\android\app\src\main\AndroidManifest.xml:23:13-73
+54-->C:\Users\DhinakaranChandrasek\Documents\Face_Verification\android\app\src\main\AndroidManifest.xml:23:23-70
+55            </intent-filter>
+56        </activity>
+57
+58        <service
+58-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\b00773476ae9e29f9ed1b8f03a22f1b9\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:9:9-15:19
+59            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+59-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\b00773476ae9e29f9ed1b8f03a22f1b9\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:10:13-91
+60            android:directBootAware="true"
+60-->[com.google.mlkit:common:17.2.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\0540502d9bfc117134556612e9c9f991\transformed\jetified-common-17.2.0\AndroidManifest.xml:17:13-43
+61            android:exported="false" >
+61-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\b00773476ae9e29f9ed1b8f03a22f1b9\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:11:13-37
+62            <meta-data
+62-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\b00773476ae9e29f9ed1b8f03a22f1b9\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:12:13-14:85
+63                android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar"
+63-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\b00773476ae9e29f9ed1b8f03a22f1b9\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:13:17-114
+64                android:value="com.google.firebase.components.ComponentRegistrar" />
+64-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\b00773476ae9e29f9ed1b8f03a22f1b9\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:14:17-82
+65            <meta-data
+65-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\3fe7f74fcbe20eaf04385e76e87e5d57\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:12:13-14:85
+66                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+66-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\3fe7f74fcbe20eaf04385e76e87e5d57\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:13:17-120
+67                android:value="com.google.firebase.components.ComponentRegistrar" />
+67-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\3fe7f74fcbe20eaf04385e76e87e5d57\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:14:17-82
+68            <meta-data
+68-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\efd632c5d52659373e2e5c4ac12997c3\transformed\jetified-play-services-mlkit-face-detection-16.2.0\AndroidManifest.xml:12:13-14:85
+69                android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar"
+69-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\efd632c5d52659373e2e5c4ac12997c3\transformed\jetified-play-services-mlkit-face-detection-16.2.0\AndroidManifest.xml:13:17-114
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\efd632c5d52659373e2e5c4ac12997c3\transformed\jetified-play-services-mlkit-face-detection-16.2.0\AndroidManifest.xml:14:17-82
+71            <meta-data
+71-->[com.google.mlkit:vision-common:16.5.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\1928ac02eb21c713d9c726c19da1597f\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:12:13-14:85
+72                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+72-->[com.google.mlkit:vision-common:16.5.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\1928ac02eb21c713d9c726c19da1597f\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:13:17-124
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[com.google.mlkit:vision-common:16.5.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\1928ac02eb21c713d9c726c19da1597f\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:14:17-82
+74            <meta-data
+74-->[com.google.mlkit:common:17.2.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\0540502d9bfc117134556612e9c9f991\transformed\jetified-common-17.2.0\AndroidManifest.xml:20:13-22:85
+75                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+75-->[com.google.mlkit:common:17.2.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\0540502d9bfc117134556612e9c9f991\transformed\jetified-common-17.2.0\AndroidManifest.xml:21:17-120
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[com.google.mlkit:common:17.2.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\0540502d9bfc117134556612e9c9f991\transformed\jetified-common-17.2.0\AndroidManifest.xml:22:17-82
+77        </service>
+78
+79        <provider
+79-->[com.google.mlkit:common:17.2.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\0540502d9bfc117134556612e9c9f991\transformed\jetified-common-17.2.0\AndroidManifest.xml:9:9-13:38
+80            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+80-->[com.google.mlkit:common:17.2.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\0540502d9bfc117134556612e9c9f991\transformed\jetified-common-17.2.0\AndroidManifest.xml:10:13-78
+81            android:authorities="com.face_verification.mlkitinitprovider"
+81-->[com.google.mlkit:common:17.2.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\0540502d9bfc117134556612e9c9f991\transformed\jetified-common-17.2.0\AndroidManifest.xml:11:13-69
+82            android:exported="false"
+82-->[com.google.mlkit:common:17.2.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\0540502d9bfc117134556612e9c9f991\transformed\jetified-common-17.2.0\AndroidManifest.xml:12:13-37
+83            android:initOrder="99" />
+83-->[com.google.mlkit:common:17.2.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\0540502d9bfc117134556612e9c9f991\transformed\jetified-common-17.2.0\AndroidManifest.xml:13:13-35
+84
+85        <activity
+85-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\4635c6fe916b3d5e896dd8158cc7f7b5\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:23:9-26:75
+86            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+86-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\4635c6fe916b3d5e896dd8158cc7f7b5\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:24:13-79
+87            android:exported="false"
+87-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\4635c6fe916b3d5e896dd8158cc7f7b5\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:25:13-37
+88            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+88-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\4635c6fe916b3d5e896dd8158cc7f7b5\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:26:13-72
+89
+90        <meta-data
+90-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\e346030595efa15e8d590613dd8a483b\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:23:9-25:69
+91            android:name="com.google.android.gms.version"
+91-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\e346030595efa15e8d590613dd8a483b\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:24:13-58
+92            android:value="@integer/google_play_services_version" />
+92-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\e346030595efa15e8d590613dd8a483b\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:25:13-66
+93
+94        <provider
+94-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\faa3592d2fc203d6c74b9a5f601058a1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+95            android:name="androidx.startup.InitializationProvider"
+95-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\faa3592d2fc203d6c74b9a5f601058a1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+96            android:authorities="com.face_verification.androidx-startup"
+96-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\faa3592d2fc203d6c74b9a5f601058a1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+97            android:exported="false" >
+97-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\faa3592d2fc203d6c74b9a5f601058a1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+98            <meta-data
+98-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\faa3592d2fc203d6c74b9a5f601058a1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+99                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+99-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\faa3592d2fc203d6c74b9a5f601058a1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+100                android:value="androidx.startup" />
+100-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\faa3592d2fc203d6c74b9a5f601058a1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+101            <meta-data
+101-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\71b91ea8216105cda74b0317da307340\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+102                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+102-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\71b91ea8216105cda74b0317da307340\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+103                android:value="androidx.startup" />
+103-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\71b91ea8216105cda74b0317da307340\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+104        </provider>
+105
+106        <service
+106-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\3c8ce7608c11d2c124765c7472926828\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+107            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+107-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\3c8ce7608c11d2c124765c7472926828\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+108            android:exported="false" >
+108-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\3c8ce7608c11d2c124765c7472926828\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+109            <meta-data
+109-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\3c8ce7608c11d2c124765c7472926828\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+110                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+110-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\3c8ce7608c11d2c124765c7472926828\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+111                android:value="cct" />
+111-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\3c8ce7608c11d2c124765c7472926828\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+112        </service>
+113        <service
+113-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\befcb08de6fa27f7bf4fb54dada3cb3d\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+114            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+114-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\befcb08de6fa27f7bf4fb54dada3cb3d\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+115            android:exported="false"
+115-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\befcb08de6fa27f7bf4fb54dada3cb3d\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+116            android:permission="android.permission.BIND_JOB_SERVICE" >
+116-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\befcb08de6fa27f7bf4fb54dada3cb3d\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+117        </service>
+118
+119        <receiver
+119-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\befcb08de6fa27f7bf4fb54dada3cb3d\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+120            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+120-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\befcb08de6fa27f7bf4fb54dada3cb3d\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+121            android:exported="false" />
+121-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\befcb08de6fa27f7bf4fb54dada3cb3d\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+122
+123        <meta-data
+123-->[com.facebook.soloader:soloader:0.10.5] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\03d018e18e7118763cc731de8f689ba0\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:12:9-14:37
+124            android:name="com.facebook.soloader.enabled"
+124-->[com.facebook.soloader:soloader:0.10.5] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\03d018e18e7118763cc731de8f689ba0\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:13:13-57
+125            android:value="false" />
+125-->[com.facebook.soloader:soloader:0.10.5] C:\Users\DhinakaranChandrasek\.gradle\caches\transforms-3\03d018e18e7118763cc731de8f689ba0\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:14:13-34
+126    </application>
+127
+128</manifest>
