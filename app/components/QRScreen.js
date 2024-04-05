@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import {View, Text, PermissionsAndroid, StyleSheet, Image, BackHandler, Alert, Platform, Linking, TouchableOpacity, ImageBackgroundBase, ImageBackground} from 'react-native';
+import {View, Text, PermissionsAndroid, StyleSheet, Image, BackHandler, Alert, Platform, Linking, TouchableOpacity, ImageBackgroundBase, ImageBackground, StatusBar} from 'react-native';
 import { Appbar, Modal, Button, ActivityIndicator, Icon } from "react-native-paper";
 import { widthPercentageToDP as wp, heightPercentageToDP as hp } from "react-native-responsive-screen";
 import DeviceInfo from "react-native-device-info";
@@ -155,7 +155,8 @@ const QRScreen = ({navigation}) => {
                     console.log('QR_Code', data.data);
                     dispatch(updateQRValue(data.data));
                     setIsCameraActivate(false);
-                    setShowModel(true);
+                    navigation.navigate('camerascreen');
+                    // setShowModel(true);
                 }}
                 />
                 <BarcodeMask
@@ -172,7 +173,8 @@ const QRScreen = ({navigation}) => {
     }
 
     return(
-        <View style = {{width: wp('100%'), height: hp('100%'), alignItems: 'center', backgroundColor: 'white'}}>
+        <View style = {{width: wp('100%'), height: hp('100%'), alignItems: 'center', backgroundColor: 'white', flex: 1}}>
+        <StatusBar backgroundColor={COLOR.PRIMARY}></StatusBar>
             <Appbar.Header style = {{width: wp('100%'), height: hp('7%'), backgroundColor: COLOR.PRIMARY}}>
             <Appbar.Content  titleStyle= {{fontWeight: '700', fontSize: FONT.L, color: COLOR.WHITE}} title = 'QR Screen'/>
             <Appbar.Action icon={require('../assets/logout.png')} iconColor={COLOR.WHITE} onPress={() => handleBackHandler()}/>

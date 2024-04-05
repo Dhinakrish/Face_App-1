@@ -18,22 +18,8 @@ const CameraScreen = ({navigation}) => {
     const [showSuccessModal, setSuccessModal] = useState(false);
     const [success, setSuccess] = useState(false);
     const [count, setCount] = useState(0);
-    const [isDetecting, setIsDetecting] = useState(false);
 
     const QRCode = useSelector(qrCode);
-
-    let counts = 6
-    useEffect(() => {
-        const updateCount = setInterval(() => {
-            counts = counts - 1;
-            setCount(counts);
-            if (counts === 0){
-                setIsDetecting(true);
-                clearInterval(updateCount)
-            }
-        }, 1000);
-        return () => clearInterval(updateCount);
-    }, []);
 
     const dispatch = useDispatch();
 
@@ -109,7 +95,7 @@ const CameraScreen = ({navigation}) => {
                     style = {{marginTop: hp('3%')}}
                     />
                     <Text style = {{fontSize: FONT.M, color: COLOR.BLACK, marginTop: hp('3%')}}>
-                        verifing...
+                        {isImageCaptured ? 'verifing...' : 'loading...'}
                     </Text>
                     </View>}
                 {showSuccessModal && <View style = {{alignItems: 'center'}}>
@@ -144,7 +130,7 @@ const CameraScreen = ({navigation}) => {
             type="front"
             focusable={true}
             onFacesDetected={(face) => {
-                if (isImageCaptured == false && isDetecting == true){
+                if (isImageCaptured == false){
                     if(face.faces.length != 0){
                         face.faces.map((item) => {
                             const leftEyeProb = item.leftEyeOpenProbability;
@@ -168,16 +154,10 @@ const CameraScreen = ({navigation}) => {
             faceDetectionLandmarks={RNCamera.Constants.FaceDetection.Landmarks.all}
             faceDetectionClassifications={RNCamera.Constants.FaceDetection.Classifications.all}
             >
-                {(isDetecting && !isImageCaptured) && <View style = {{width: wp('100%'), height: hp('5%'), justifyContent: 'space-between', alignItems: 'center', flexDirection: 'row', paddingHorizontal: wp('38%')}}>
-                    <Image
-                    source={require('../assets/record.png')}
-                    style={{width: wp('3%'), height: wp('3%')}}
-                    />
-                    <Text style = {{fontSize: FONT.M}}>Detecting</Text>
-                </View>}
-                {(!isDetecting && !isImageCaptured) && <Text style = {{fontSize: wp('25%'), textAlign: 'center', marginTop: hp('40%')}}>{count}</Text>}
+                <View style = {{width: wp('100%'), height: hp('100%'), backgroundColor: 'whitesmoke'}}>
+                {renderModal()}
+                </View>
             </RNCamera>
-            {showModal && renderModal()}
         </View>
     )
 };
